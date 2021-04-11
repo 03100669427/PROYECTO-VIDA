@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(0, 8, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 8, 36, 1) 0%,
+    rgba(0, 78, 255, 1) 0%,
+    rgba(160, 255, 246, 1) 100%
+  );
+}
+h1 {
+  font-family: "Courgette", cursive;
+  text-shadow: 1px 1px 1px rgb(119, 119, 119);
+  font-size: 50px;
+}
+
+/*Menu*/
+
+.mennu a {
+  color: rgb(0, 255, 42);
+  text-shadow: 1px 1px black;
+  margin-left: 10px;
+
+  text-decoration: none;
+  line-height: 35px;
+  font-size: 15px;
+}
+.mennu a:hover {
+  text-decoration: underline;
+  color: rgb(4, 255, 221);
+  text-shadow: 1px 1px 1px black;
+}
+.divv {
+  display: flex;
+}
+/*Index*/
+
+.index {
+  padding: 10px;
+  margin: 1px auto;
+  width: 1000px;
+  text-align: center;
+}
+
+.perfil {
+  width: 350px;
+  height: 450px;
+  margin-top: 45px;
+  float: left;
+  border-radius: 25px;
+  margin-left: 90px;
+  box-shadow: 2px 2px rgb(77, 77, 77);
+}
+.per {
+  width: 420px;
+  align-items: center;
+  float: right;
+  margin-right: 40px;
+  padding-top: 120px;
+  padding-bottom: 240px;
+  padding-left: 40px;
+  margin-top: 15px;
+
+  border-left: 1px solid black;
+  text-align: left;
+}
+.titulo {
+  font-size: 55px;
+  font-family: "Abril Fatface", cursive;
+}
+.vip {
+  margin: 0 auto;
+}
+
+/*¿Quien soy?*/
+
+.div-soy {
+  text-align: justify;
+  margin: 50px auto;
+  width: 1100px;
+  text-align: center;
+}
+.soy {
+  display: flex;
+}
+.p-soy {
+  text-align: justify;
+  padding: 20px;
+  margin-left: 30px;
+  padding-left: 50px;
+  padding-bottom: 25px;
+  margin-top: 15px;
+  border-left: 1px solid black;
+}
+.img-soy {
+  width: 400px;
+  height: 450px;
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 150px;
+}
+
+/*5-feliz*/
+
+.div-feliz {
+  text-align: justify;
+  margin: 50px auto;
+  width: 1100px;
+  text-align: center;
+}
+
+.feliz {
+  display: flex;
+  margin: 20px auto;
+}
+.img-feliz {
+  width: 350px;
+  height: 350px;
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 150px;
+}
+.ol-feliz {
+  text-align: justify;
+  padding: 20px;
+  margin-left: 20px;
+  padding-left: 30px;
+
+  padding-bottom: 100px;
+  margin-top: 15px;
+  border-left: 1px solid black;
+  padding-top: 30px;
+}
+
+/*5-enojado*/
+.enojado {
+  text-align: justify;
+  margin: 50px auto;
+  width: 1100px;
+  text-align: center;
+}
+.ennojado {
+  display: flex;
+  margin: 20px auto;
+}
+
+.img-eno {
+  width: 350px;
+  height: 350px;
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 150px;
+}
+.ol-eno {
+  text-align: justify;
+  padding: 20px;
+  margin-left: 20px;
+  padding-left: 30px;
+
+  padding-bottom: 125px;
+  margin-top: 15px;
+  border-left: 1px solid black;
+  padding-top: 30px;
+}
+
+/*unico*/
+
+.unico {
+  text-align: justify;
+  margin: 50px auto;
+  width: 1100px;
+  text-align: center;
+}
+
+.div-uni {
+  display: flex;
+  margin: 20px auto;
+}
+
+.img-uni {
+  width: 350px;
+  height: 300px;
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 150px;
+}
+.p-uni {
+  text-align: justify;
+  padding: 20px;
+  margin-left: 20px;
+  padding-left: 30px;
+
+  padding-bottom: 125px;
+  margin-top: 15px;
+  border-left: 1px solid black;
+  padding-top: 30px;
+}
+/*test-personalidad*/
+
+.div-per {
+  text-align: justify;
+  margin: 50px auto;
+  width: 1100px;
+  text-align: center;
+}
+
+.img-per {
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgb(95, 95, 95);
+}
+
+/*test-inteligencias*/
+
+.div-int {
+  text-align: justify;
+  margin: 50px auto;
+  width: 1100px;
+  text-align: center;
+}
+
+.img-int {
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgb(95, 95, 95);
+}
+/*¿porque decidi?*/
+.decidi {
+  text-align: justify;
+  margin: 50px auto;
+  width: 1100px;
+  text-align: center;
+}
+.div-deci {
+  display: flex;
+  margin: 20px auto;
+}
+.img-deci {
+  width: 350px;
+  height: 300px;
+  margin-top: 50px;
+  margin-right: 10px;
+  margin-left: 150px;
+}
+
+.p-deci {
+  text-align: justify;
+  padding: 20px;
+  margin-left: 20px;
+  padding-left: 30px;
+
+  padding-bottom: 265px;
+  margin-top: 15px;
+  border-left: 1px solid black;
+  padding-top: 30px;
+}
+/*Metas*/
+.metas {
+  text-align: justify;
+  margin: 50px auto;
+  width: 1100px;
+  text-align: center;
+}
+.div-metas {
+  display: flex;
+  margin: 20px auto;
+}
+
+.img-met {
+  width: 350px;
+  height: 300px;
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 150px;
+}
+
+.ul-met {
+  text-align: justify;
+  padding: 20px;
+  margin-left: 20px;
+  padding-left: 30px;
+
+  padding-bottom: 125px;
+  margin-top: 15px;
+  border-left: 1px solid black;
+  padding-top: 30px;
+}
+
+/*agradecimientos*/
+
+.agra {
+  text-align: justify;
+  margin: 50px auto;
+  width: 1100px;
+  text-align: center;
+}
+.img-agra {
+  margin: 40px auto;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgb(95, 95, 95);
+  width: 600px;
+  height: 450px;
+}
